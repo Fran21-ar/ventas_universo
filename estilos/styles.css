@@ -14,7 +14,7 @@ body{
     border: none;
     margin: 0;
     padding: 0;
-    height: 70px;
+    height: 60px;
 }
 
 .principal{
@@ -43,25 +43,39 @@ body{
 }
 
 .productos{
-    height: 420px;
+    height: 550px;
+    overflow-y: auto;
+}
+
+.productos::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.productos::-webkit-scrollbar-track {
+    background: #2e2e2e; 
+}
+
+.productos::-webkit-scrollbar-thumb {
+    background-color: #252525; 
+    border-radius: 10px; 
 }
 
 .ventas{
-    height: 420px;
+    height: 550px;
     overflow-y: auto;
 }
 
 .ventas::-webkit-scrollbar {
-    width: 10px; /* Ancho del scroll */
+    width: 10px; 
 }
 
 .ventas::-webkit-scrollbar-track {
-    background: #2e2e2e; /* Color de fondo del scroll */
+    background: #2e2e2e; 
 }
 
 .ventas::-webkit-scrollbar-thumb {
-    background-color: #252525; /* Color del "thumb" (barra de desplazamiento) */
-    border-radius: 10px; /* Redondear las esquinas del scroll */
+    background-color: #252525; 
+    border-radius: 10px; 
 }
 
 #lista-productos li{
