@@ -1,16 +1,22 @@
 document.addEventListener('DOMContentLoaded', function(){
 
 const productos = [
-    {nombre: 'fernert', precio: 4000},
-    {nombre: 'whiscola', precio: 4000},
-    {nombre: 'gin', precio: 3500},
-    {nombre: 'gancia', precio: 3500},
-    {nombre: 'lata de cerveza', precio: 2000},
-    {nombre: 'miller', precio: 2500},
-    {nombre: 'corona', precio: 3000},
-    {nombre: 'cosecha', precio: 7000},
+    {nombre: 'Fernert', precio: 4000},
+    {nombre: 'Whiscola', precio: 4000},
+    {nombre: 'Gancia', precio: 3500},
+    {nombre: 'Gin Tonic', precio: 3500},
+    {nombre: 'Lata de Cerveza', precio: 2000},
+    {nombre: 'Miller', precio: 2500},
+    {nombre: 'Corona', precio: 3000},
+    {nombre: 'Cosecha', precio: 7000},
     {nombre: 'speed', precio: 2000},
     {nombre: 'cosecha & speed', precio: 9000},
+    {nombre: 'Dadá', precio: 8000},
+    {nombre: 'Los Aroldos', precio: 8000},
+    {nombre: 'Smirnoff c/ seven', precio: 3500},
+    {nombre: 'Smirnoff c/ speed', precio: 4000},
+    {nombre: 'Whisky', precio: 3000},
+    {nombre: 'Novecento', precio: 7500},
     {nombre: 'gaseosa (variedad)', precio: 1000},
     {nombre: 'agua', precio: 1000}
 ];
