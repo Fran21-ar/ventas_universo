@@ -44,6 +44,12 @@ productos.forEach((producto) => {
 
         totalVentas += producto.precio;
         totalVentasSpan.textContent = totalVentas;
+
+        ventaItem.addEventListener('click', () =>{
+            listaVentas.removeChild(ventaItem);
+            totalVentas -= producto.precio;
+            totalVentasSpan.textContent = totalVentas;
+        });
       });
 
       listaProductos.appendChild(li);
