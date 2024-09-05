@@ -41,7 +41,7 @@ productos.forEach((producto) => {
     const ventaItem = document.createElement('li');
     ventaItem.textContent = `${producto.nombre} - $${producto.precio} - ${new Date().toLocaleTimeString()}`;
     listaVentas.appendChild(ventaItem);
-
+    ventaItem.style.cursor = 'pointer';
         totalVentas += producto.precio;
         totalVentasSpan.textContent = totalVentas;
 
